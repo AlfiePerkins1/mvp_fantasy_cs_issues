@@ -1,7 +1,7 @@
 #  Fantasy CS Bot — Command Reference
 
 A quick overview of all available slash commands and what they do.  
-*(Useful for remembering how to refresh stats, teams, leaderboards, etc.)*
+*(Helps me remember what commands to do)*
 
 ---
 
@@ -10,7 +10,7 @@ A quick overview of all available slash commands and what they do.
   Links your Discord account to your Steam64 ID.  
   Creates a user record and player entry if one doesn’t exist.  
   Also stores your Discord handle (nickname, username, global name).  
-  → Must be done before joining teams or earning points.
+  Must be done before joining teams or earning points.
 
 - **/account unlink** *(if implemented)*  
   Removes your linked Steam ID from your account.
@@ -62,7 +62,7 @@ A quick overview of all available slash commands and what they do.
   - Faceit ELO (if available)
 
 - **/pricing show `[player]`**  
-  Displays the current price(s) of a player or the top priced players.
+  Displays the current price(s) of a player or the top-priced players.
 
 ---
 
@@ -122,4 +122,5 @@ so any new `/account register` users automatically have fresh history.
     - Keeps the fantasy market current
 
    
+
 
