@@ -121,6 +121,20 @@ so any new `/account register` users automatically have fresh history.
     - Uses the latest leetify, faceit, and premier data to refresh player prices
     - Keeps the fantasy market current
 
+
+**Stats gathering guide**
+`/pricing sync_players` <- Syncs players with registered users (with steamID) & calls get_or_create_players()
+`/scoring update_all` <- Updates player_stats & weekly_points
+`/pricing backfill_games` <- Ingests matches for all users 
+`/pricing update` <- Gets current rankings and recalculates prices
+
+**Order**
+1. `/pricing sync_players`
+2. `/pricing backfill_games`
+3. `/scoring update_all`
+4. `/pricing update`
+
    
+
 
 
