@@ -45,7 +45,7 @@ A quick overview of all available slash commands and what they do.
 
 ---
 
-##  Player Commands
+##  Player Commands (Coming Soon)
 - **/player stats `<player>`**  
   Shows recent performance for a player (ratings, ADR, kills, etc.) from the database.
 
@@ -122,3 +122,4 @@ so any new `/account register` users automatically have fresh history.
     - Keeps the fantasy market current
 
    
+
